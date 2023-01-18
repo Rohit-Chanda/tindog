@@ -1,0 +1,151 @@
+body {}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem !important;
+    line-height: 1.5;
+  }
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+  }
+
+p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+  }
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 1% !important;
+}
+
+.navbar {
+  padding-bottom: 3.5rem !important;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem !important;
+}
+
+.navbar-nav {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+li {
+  margin: 20px;
+  font-size: 1.5rem;
+}
+
+.col-lg-6 {
+  transform: rotate(25deg);
+  width: 50% !important;
+  position: relative;
+}
+
+.col-lg-5 {
+  font-family: 'Montserrat', sans-serif;
+  padding: 5% 3% 5% 0;
+}
+
+.btn {
+  padding: 5% 5%;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.icon {
+  color: #EB6440;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial Section */
+#testimonials {
+  background-color: #EB6440;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*press*/
+#press {
+  background-color: #EB6440;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-coloumn {
+  padding: 5% 2%;
+}
+
+/* cta */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/*   footer */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .col-lg-6 {
+    position: static;
+    transform: rotate(0);
+  }
+}
